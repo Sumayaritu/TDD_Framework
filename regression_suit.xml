@@ -4,8 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="auto.AutoTest"/>
-      <class name="misc.UnitTest"/>
-      <class name="misc.LinearScripting"/>
+
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

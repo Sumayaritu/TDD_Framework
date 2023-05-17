@@ -6,7 +6,7 @@
       <class name="auto.AutoTest">
         <methods>
           <include name="beforeEachTest"/>
-          <include name="clickContinueShoppingTest"/>
+          <include name="selectMenuBtnTest"/>
           <include name="closingBrowser"/>
         </methods>
       </class> <!-- auto.AutoTest -->

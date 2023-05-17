@@ -15,41 +15,24 @@ public class HomePage {
 		PageFactory.initElements(driver,this);
 	}
 	
-	@FindBy(xpath="//a[@class=\'CA__mb-15\']")
-	WebElement OrdernowButton;
-	
-	@FindBy(xpath="//*[@id='pf-icon__cart']")
-	WebElement CartButton;
-	
-	@FindBy(xpath="//input[@id=\'ntt-placeholder\']")
-	WebElement SearchBar;
-	
-	@FindBy(xpath="//*[@id=\"pf-icon__search\"]")
-	WebElement SearchBtn;
+	@FindBy(xpath="//a[@class=\"menu-trigger\"]")
+	WebElement MenuBtn;
 			
+	//@FindBy(xpath = "//span[text()='Find a Store']")
+	//WebElement findAStore;
 	
-	public void orderNowButtonValidation() {
-		getInnerHTML(OrdernowButton);
+	@FindBy(xpath="//span[text()='Prescriptions']")
+	WebElement prescriptionBtn;
+	
+	@FindBy(xpath="//a[@id=\"records\"]")
+	WebElement recordsBtn;
+	
+	public void selectMenuBtn() {
+		click(MenuBtn);
+		//click(findAStore);
+		click(prescriptionBtn);
+		click(recordsBtn);
 	}
-	
-	public void clickCartButton() {
-		CartButton.click();
-	}
-	
-	public void insertMsgInSrhbar(String msg) {
-		insert(SearchBar,msg);
-}
-	public void clickSearchBtn() {
-		SearchBtn.click();
-	}
-	
-	/*@FindBy(xpath="//*[@id=\'Default_Left_Slot_New_a_CB-2\']")
-	WebElement WeeklyAddButton;
-	
-	public void clickWeeklyAddButton() {
-		WeeklyAddButton.click();
-	}
-	*/
 	
 	@FindBy(xpath="//a[@id=\'wag-cart-no-item-link\']")
 	WebElement ContinueShopping;

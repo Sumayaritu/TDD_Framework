@@ -1,5 +1,6 @@
 package misc;
 
+import org.testng.annotations.Test;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
@@ -28,7 +29,7 @@ public class LinearScripting {
 		driver.get("https://www.walgreens.com/findcare/covid19/otc?ban=ct23_OTC_hero");
 		WebElement element = driver.findElement(By.xpath("//a[@class=\"logo-contain\"]"));
 		String logo = element.getAttribute("logo");// TODO
-		System.out.println("title");
+		System.out.println(logo);
 	}
 
 	@Test
@@ -36,8 +37,15 @@ public class LinearScripting {
 		driver.get("https://www.walgreens.com/");
 		WebElement element = driver.findElement(By.xpath("//li[@id=\"Default_Left_Slot_New_a_CB-2\"]"));
 		String title = element.getAttribute("innerHTML");
-		System.out.println("title");
+		System.out.println(title);
 }
+	@Test
+	public void testWalgreensHomePage() {
+		driver.get("https://www.walgreens.com/");
+		WebElement element=driver.findElement(By.xpath("//a[@class='logo-contain']/span/img"));
+		String alt=element.getAttribute("alt");
+		System.out.println(alt);
+	}
 	@AfterMethod
 public void closingDriver() {
 		driver.quit();
