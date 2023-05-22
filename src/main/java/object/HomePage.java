@@ -17,9 +17,6 @@ public class HomePage {
 	
 	@FindBy(xpath="//a[@class=\"menu-trigger\"]")
 	WebElement MenuBtn;
-			
-	//@FindBy(xpath = "//span[text()='Find a Store']")
-	//WebElement findAStore;
 	
 	@FindBy(xpath="//span[text()='Prescriptions']")
 	WebElement prescriptionBtn;
@@ -27,21 +24,39 @@ public class HomePage {
 	@FindBy(xpath="//a[@id=\"records\"]")
 	WebElement recordsBtn;
 	
+	@FindBy(xpath = "//span[text()='Find a Store']")
+	WebElement findAStore;
+
+	@FindBy(xpath="//strong[text()='2920 CARTER HILL RD']")
+	WebElement addressBtn;
+	
+	@FindBy(xpath = "//span[text()='Find Care']")
+	WebElement findCare;
+	
+	@FindBy(xpath="//a[text()='Medicare']")
+	WebElement medicareBtn;
+	
+	@FindBy(xpath="//span[text()='Get started']")
+	WebElement getStarted;
+	
 	public void selectMenuBtn() {
 		click(MenuBtn);
-		//click(findAStore);
 		click(prescriptionBtn);
 		click(recordsBtn);
 	}
-	
-	@FindBy(xpath="//a[@id=\'wag-cart-no-item-link\']")
-	WebElement ContinueShopping;
-	
-	public void clickContinueShopping() {
-		ContinueShopping.click();
+	public void clickFind_A_Store() {
+		click(MenuBtn);
+		click(findAStore);
+		click(addressBtn);
 	}
-	 
-			
+	public void clickFind_Care_Btn() {
+		click(MenuBtn);
+		click(findCare);
+		click(medicareBtn);
+		click(getStarted);
+	}
 	
-
+	
+	
+	
 }

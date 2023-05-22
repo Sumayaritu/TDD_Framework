@@ -26,6 +26,19 @@ public class AutoTest extends Test_Base {
 		creatAccountPage.insertInformation("Suarez");
 		creatAccountPage.insertInformation("07.10.1998");
 		creatAccountPage.selectCellNumber("Home");
-		
+		creatAccountPage.insertInformation("tdd@gmail.com");
+		creatAccountPage.insertInformation("C12345678");
+		creatAccountPage.clickShowPassword();
+		creatAccountPage.clickShowPassword();
+		creatAccountPage.clickContinueBtn(driver);
 	}
+	@Test
+	public void clickFind_A_Store_Test() {
+		homepage.clickFind_A_Store();
+	}
+	@Test
+	public void clickFind_Care_Btn_Test() {
+		homepage.clickFind_Care_Btn();
+	}
+	
 }

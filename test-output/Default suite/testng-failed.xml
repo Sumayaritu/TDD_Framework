@@ -5,8 +5,12 @@
     <classes>
       <class name="auto.AutoTest">
         <methods>
+          <include name="clickFind_A_Store_Test"/>
+          <include name="createTest"/>
+          <include name="initiateReport"/>
+          <include name="closingReport"/>
           <include name="beforeEachTest"/>
-          <include name="selectMenuBtnTest"/>
+          <include name="aftereEachTest"/>
           <include name="closingBrowser"/>
         </methods>
       </class> <!-- auto.AutoTest -->

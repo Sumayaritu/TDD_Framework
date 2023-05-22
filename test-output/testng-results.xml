@@ -1,82 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: //a[@class="menu-trigger"]'<<<<<<<Has been clicked>>>>>>>><br]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on WINDOWS (0b2f4673301ac0d9240b36cdbb83ffcc)] -> xpath: //span[text()='Prescriptions']]<<<<<<<Has been clicked>>>>>>>><br]]>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (5ef6970372b09cf029cd109f44ec1c61)] -> xpath: //span[text()='Find Care']]<<<<<<<Has been clicked>>>>>>>><br]]>
     </line>
     <line>
-      <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: //a[@id="records"]'<<<<<<<Has been clicked>>>>>>>><br]]>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (5ef6970372b09cf029cd109f44ec1c61)] -> xpath: //a[text()='Medicare']]<<<<<<<Has been clicked>>>>>>>><br]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on WINDOWS (0b2f4673301ac0d9240b36cdbb83ffcc)] -> xpath: //input[@id="user_name"]]<<<<<value inserted:tdd@gmail.com<br]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on WINDOWS (0b2f4673301ac0d9240b36cdbb83ffcc)] -> xpath: //input[@name="password"]]<<<<<value inserted:12345<br]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on WINDOWS (0b2f4673301ac0d9240b36cdbb83ffcc)] -> xpath: //input[@id="ShowCharacter"]]<<<<<<<Has been clicked>>>>>>>><br]]>
-    </line>
-    <line>
-      <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: //button[@id="create_btn"]'<<<<<<<Has been clicked>>>>>>>><br]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on WINDOWS (0b2f4673301ac0d9240b36cdbb83ffcc)] -> xpath: //h1[text()='Create your account']]<<<<<innerText: Create your account<br]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on WINDOWS (0b2f4673301ac0d9240b36cdbb83ffcc)] -> id: wag-RXUser-firstname]<<<<<value inserted:Claudia<br]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on WINDOWS (0b2f4673301ac0d9240b36cdbb83ffcc)] -> name: lastName]<<<<<value inserted:Claudia<br]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on WINDOWS (0b2f4673301ac0d9240b36cdbb83ffcc)] -> id: wag-RXUser-DOB]<<<<<value inserted:Claudia<br]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on WINDOWS (0b2f4673301ac0d9240b36cdbb83ffcc)] -> id: wag-RXUser-firstname]<<<<<value inserted:Suarez<br]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on WINDOWS (0b2f4673301ac0d9240b36cdbb83ffcc)] -> name: lastName]<<<<<value inserted:Suarez<br]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on WINDOWS (0b2f4673301ac0d9240b36cdbb83ffcc)] -> id: wag-RXUser-DOB]<<<<<value inserted:Suarez<br]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on WINDOWS (0b2f4673301ac0d9240b36cdbb83ffcc)] -> id: wag-RXUser-firstname]<<<<<value inserted:07.10.1998<br]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on WINDOWS (0b2f4673301ac0d9240b36cdbb83ffcc)] -> name: lastName]<<<<<value inserted:07.10.1998<br]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on WINDOWS (0b2f4673301ac0d9240b36cdbb83ffcc)] -> id: wag-RXUser-DOB]<<<<<value inserted:07.10.1998<br]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on WINDOWS (0b2f4673301ac0d9240b36cdbb83ffcc)] -> id: wag-phonetype-select]<<<<<selected:Home<br]]>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (5ef6970372b09cf029cd109f44ec1c61)] -> xpath: //span[text()='Get started']]<<<<<<<Has been clicked>>>>>>>><br]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-05-17T10:03:28 CDT" name="Suite" finished-at="2023-05-17T10:05:19 CDT" duration-ms="111180">
+  <suite started-at="2023-05-19T11:01:41 CDT" name="Default suite" finished-at="2023-05-19T11:02:19 CDT" duration-ms="38639">
     <groups>
     </groups>
-    <test started-at="2023-05-17T10:03:28 CDT" name="Test" finished-at="2023-05-17T10:05:19 CDT" duration-ms="111180">
+    <test started-at="2023-05-19T11:01:41 CDT" name="Default test" finished-at="2023-05-19T11:02:19 CDT" duration-ms="38639">
       <class name="auto.AutoTest">
-        <test-method is-config="true" signature="initiateReport()[pri:0, instance:auto.AutoTest@d86a6f]" started-at="2023-05-17T10:03:27 CDT" name="initiateReport" finished-at="2023-05-17T10:03:28 CDT" duration-ms="245" status="PASS">
+        <test-method is-config="true" signature="initiateReport()[pri:0, instance:auto.AutoTest@2a7f1f10]" started-at="2023-05-19T11:01:40 CDT" name="initiateReport" finished-at="2023-05-19T11:01:41 CDT" duration-ms="188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateReport -->
-        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:auto.AutoTest@d86a6f]" started-at="2023-05-17T10:03:28 CDT" name="createTest" finished-at="2023-05-17T10:03:28 CDT" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:auto.AutoTest@2a7f1f10]" started-at="2023-05-19T11:01:41 CDT" name="createTest" finished-at="2023-05-19T11:01:41 CDT" duration-ms="7" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void auto.AutoTest.selectMenuBtnTest()]]>
+                <![CDATA[public void auto.AutoTest.clickFind_Care_Btn_Test()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createTest -->
-        <test-method is-config="true" signature="beforeEachTest(java.lang.String)[pri:0, instance:auto.AutoTest@d86a6f]" started-at="2023-05-17T10:03:28 CDT" name="beforeEachTest" finished-at="2023-05-17T10:03:40 CDT" duration-ms="12622" status="PASS">
+        <test-method is-config="true" signature="beforeEachTest(java.lang.String)[pri:0, instance:auto.AutoTest@2a7f1f10]" started-at="2023-05-19T11:01:41 CDT" name="beforeEachTest" finished-at="2023-05-19T11:01:45 CDT" duration-ms="4133" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -87,89 +45,47 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method signature="selectMenuBtnTest()[pri:0, instance:auto.AutoTest@d86a6f]" started-at="2023-05-17T10:03:40 CDT" name="selectMenuBtnTest" finished-at="2023-05-17T10:05:19 CDT" duration-ms="98238" status="PASS">
+        <test-method signature="clickFind_Care_Btn_Test()[pri:0, instance:auto.AutoTest@2a7f1f10]" started-at="2023-05-19T11:01:45 CDT" name="clickFind_Care_Btn_Test" finished-at="2023-05-19T11:02:19 CDT" duration-ms="34286" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: //a[@class="menu-trigger"]'<<<<<<<Has been clicked>>>>>>>><br]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on WINDOWS (0b2f4673301ac0d9240b36cdbb83ffcc)] -> xpath: //span[text()='Prescriptions']]<<<<<<<Has been clicked>>>>>>>><br]]>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (5ef6970372b09cf029cd109f44ec1c61)] -> xpath: //span[text()='Find Care']]<<<<<<<Has been clicked>>>>>>>><br]]>
             </line>
             <line>
-              <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: //a[@id="records"]'<<<<<<<Has been clicked>>>>>>>><br]]>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (5ef6970372b09cf029cd109f44ec1c61)] -> xpath: //a[text()='Medicare']]<<<<<<<Has been clicked>>>>>>>><br]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on WINDOWS (0b2f4673301ac0d9240b36cdbb83ffcc)] -> xpath: //input[@id="user_name"]]<<<<<value inserted:tdd@gmail.com<br]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on WINDOWS (0b2f4673301ac0d9240b36cdbb83ffcc)] -> xpath: //input[@name="password"]]<<<<<value inserted:12345<br]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on WINDOWS (0b2f4673301ac0d9240b36cdbb83ffcc)] -> xpath: //input[@id="ShowCharacter"]]<<<<<<<Has been clicked>>>>>>>><br]]>
-            </line>
-            <line>
-              <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: //button[@id="create_btn"]'<<<<<<<Has been clicked>>>>>>>><br]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on WINDOWS (0b2f4673301ac0d9240b36cdbb83ffcc)] -> xpath: //h1[text()='Create your account']]<<<<<innerText: Create your account<br]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on WINDOWS (0b2f4673301ac0d9240b36cdbb83ffcc)] -> id: wag-RXUser-firstname]<<<<<value inserted:Claudia<br]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on WINDOWS (0b2f4673301ac0d9240b36cdbb83ffcc)] -> name: lastName]<<<<<value inserted:Claudia<br]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on WINDOWS (0b2f4673301ac0d9240b36cdbb83ffcc)] -> id: wag-RXUser-DOB]<<<<<value inserted:Claudia<br]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on WINDOWS (0b2f4673301ac0d9240b36cdbb83ffcc)] -> id: wag-RXUser-firstname]<<<<<value inserted:Suarez<br]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on WINDOWS (0b2f4673301ac0d9240b36cdbb83ffcc)] -> name: lastName]<<<<<value inserted:Suarez<br]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on WINDOWS (0b2f4673301ac0d9240b36cdbb83ffcc)] -> id: wag-RXUser-DOB]<<<<<value inserted:Suarez<br]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on WINDOWS (0b2f4673301ac0d9240b36cdbb83ffcc)] -> id: wag-RXUser-firstname]<<<<<value inserted:07.10.1998<br]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on WINDOWS (0b2f4673301ac0d9240b36cdbb83ffcc)] -> name: lastName]<<<<<value inserted:07.10.1998<br]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on WINDOWS (0b2f4673301ac0d9240b36cdbb83ffcc)] -> id: wag-RXUser-DOB]<<<<<value inserted:07.10.1998<br]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on WINDOWS (0b2f4673301ac0d9240b36cdbb83ffcc)] -> id: wag-phonetype-select]<<<<<selected:Home<br]]>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (5ef6970372b09cf029cd109f44ec1c61)] -> xpath: //span[text()='Get started']]<<<<<<<Has been clicked>>>>>>>><br]]>
             </line>
           </reporter-output>
-        </test-method> <!-- selectMenuBtnTest -->
-        <test-method is-config="true" signature="aftereEachTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:auto.AutoTest@d86a6f]" started-at="2023-05-17T10:05:19 CDT" name="aftereEachTest" finished-at="2023-05-17T10:05:19 CDT" duration-ms="0" status="PASS">
+        </test-method> <!-- clickFind_Care_Btn_Test -->
+        <test-method is-config="true" signature="aftereEachTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:auto.AutoTest@2a7f1f10]" started-at="2023-05-19T11:02:19 CDT" name="aftereEachTest" finished-at="2023-05-19T11:02:19 CDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=selectMenuBtnTest status=SUCCESS method=AutoTest.selectMenuBtnTest()[pri:0, instance:auto.AutoTest@d86a6f] output=Proxy element for: DefaultElementLocator 'By.xpath: //a[@class="menu-trigger"]'<<<<<<<Has been clicked>>>>>>>><br]]]>
+                <![CDATA[[TestResult name=clickFind_Care_Btn_Test status=SUCCESS method=AutoTest.clickFind_Care_Btn_Test()[pri:0, instance:auto.AutoTest@2a7f1f10] output=Proxy element for: DefaultElementLocator 'By.xpath: //a[@class="menu-trigger"]'<<<<<<<Has been clicked>>>>>>>><br]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void auto.AutoTest.selectMenuBtnTest()]]>
+                <![CDATA[public void auto.AutoTest.clickFind_Care_Btn_Test()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftereEachTest -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:auto.AutoTest@d86a6f]" started-at="2023-05-17T10:05:19 CDT" name="closingBrowser" finished-at="2023-05-17T10:05:19 CDT" duration-ms="264" status="PASS">
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:auto.AutoTest@2a7f1f10]" started-at="2023-05-19T11:02:19 CDT" name="closingBrowser" finished-at="2023-05-19T11:02:19 CDT" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingBrowser -->
-        <test-method is-config="true" signature="closingReport()[pri:0, instance:auto.AutoTest@d86a6f]" started-at="2023-05-17T10:05:19 CDT" name="closingReport" finished-at="2023-05-17T10:05:19 CDT" duration-ms="557" status="PASS">
+        <test-method is-config="true" signature="closingReport()[pri:0, instance:auto.AutoTest@2a7f1f10]" started-at="2023-05-19T11:02:19 CDT" name="closingReport" finished-at="2023-05-19T11:02:19 CDT" duration-ms="253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingReport -->
       </class> <!-- auto.AutoTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
